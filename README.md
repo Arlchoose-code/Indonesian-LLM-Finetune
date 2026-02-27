@@ -10,15 +10,16 @@ Kit untuk melakukan **fine-tuning** model LLM Bahasa Indonesia menggunakan tekni
 
 | Repo | Fungsi |
 |---|---|
-| 🏗️ [Indonesian LLM Starter](https://github.com/syhrlhyn834/Indonesian-LLM-Starter) | Pre-training LLM dari scratch — mulai dari sini |
+| 📦 [Aibys Data Collector](https://github.com/syhrlhyn834/aibys-data-collector) | Kumpulkan & siapkan dataset untuk training |
+| 🏗️ [Indonesian LLM Starter](https://github.com/syhrlhyn834/Indonesian-LLM-Starter) | Pre-training LLM dari scratch |
 | 🎯 **Indonesian LLM Fine-tune** (repo ini) | Fine-tuning model hasil pre-training dengan LoRA |
 
 **Alur lengkap:**
 ```
-Indonesian LLM Starter          →       Indonesian LLM Fine-tune
-(pre-train dari raw text)               (fine-tune jadi assistant)
-        ↓                                         ↓
-  aibys_final.pt               →         model siap chat
+Aibys Data Collector    →    Indonesian LLM Starter    →    Indonesian LLM Fine-tune
+(kumpul & siap data)         (pre-train model)               (fine-tune jadi assistant)
+        ↓                            ↓                                  ↓
+  train_shuffled.txt    →      aibys_final.pt           →        model siap chat
 ```
 
 ---
