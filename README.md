@@ -10,7 +10,7 @@ Kit untuk melakukan **fine-tuning** model LLM Bahasa Indonesia menggunakan tekni
 
 | Repo | Fungsi |
 |---|---|
-| 📦 [Aibys Data Collector](https://github.com/syhrlhyn834/aibys-data-collector) | Kumpulkan & siapkan dataset untuk training |
+| 📦 [Aibys Data Collector](https://github.com/syhrlhyn834/Aibys-Data-Collector) | Kumpulkan & siapkan dataset untuk training |
 | 🏗️ [Indonesian LLM Starter](https://github.com/syhrlhyn834/Indonesian-LLM-Starter) | Pre-training LLM dari scratch |
 | 🎯 **Indonesian LLM Fine-tune** (repo ini) | Fine-tuning model hasil pre-training dengan LoRA |
 
